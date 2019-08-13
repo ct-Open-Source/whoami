@@ -1,8 +1,8 @@
 # whoami
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/containous/whoami.svg)](https://hub.docker.com/r/containous/whoami/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/ctmagazin/whoami.svg)](https://hub.docker.com/r/ctmagazin/whoami/)
 
-Tiny Go webserver that prints os information and HTTP request to output
+Tiny Go webserver that prints os information and HTTP request to output. This is a fork of [containous/whoami](https://github.com/containous/whoami) designed to run on AMD64, ARM64 and ARMv7.
 
 ```console
 $ docker run -d -P --name iamfoo containous/whoami
