@@ -1,4 +1,5 @@
 FROM golang:1.11 as builder
+ENV GODEBUG=netdns=10
 WORKDIR /go/whoami
 COPY . .
 RUN make build
